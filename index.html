@@ -693,7 +693,8 @@ async function submitAnnotation() {
     setProgress(80);
 
     if (resp.ok) {
-      const action = sha ? 'Updated' : 'Submitted';
+      const action = 'Submitted';
+
       showStatus('success',
         `✓ ${action} successfully!\n\n` +
         `  Student : ${studentName.replace(/_/g, ' ')}\n` +
