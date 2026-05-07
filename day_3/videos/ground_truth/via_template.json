@@ -1,0 +1,62 @@
+{
+  "project": {
+    "pid": "__VIA_PROJECT_ID__",
+    "rev": "__VIA_PROJECT_REV_ID__",
+    "rev_timestamp": "__VIA_PROJECT_REV_TIMESTAMP__",
+    "pname": "NBI011F SLEAP Annotation",
+    "creator": "VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via)",
+    "created": 1778147530630,
+    "vid_list": [
+      "1"
+    ]
+  },
+  "config": {
+    "file": {
+      "loc_prefix": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    "ui": {
+      "file_content_align": "center",
+      "file_metadata_editor_visible": true,
+      "spatial_metadata_editor_visible": false,
+      "temporal_segment_metadata_editor_visible": true,
+      "spatial_region_label_attribute_id": "1",
+      "gtimeline_visible_row_count": "4"
+    }
+  },
+  "attribute": {
+    "1": {
+      "aname": "Node",
+      "anchor_id": "FILE1_Z1_XY1",
+      "type": 2,
+      "desc": "Skeleton keypoint \u2014 select the body part you are clicking",
+      "options": {
+        "0": "Head",
+        "1": "Thorax",
+        "2": "Tail"
+      },
+      "default_option_id": ""
+    }
+  },
+  "file": {
+    "1": {
+      "fid": "1",
+      "fname": "",
+      "type": 4,
+      "loc": 1,
+      "src": ""
+    }
+  },
+  "metadata": {},
+  "view": {
+    "1": {
+      "fid_list": [
+        "1"
+      ]
+    }
+  }
+}
